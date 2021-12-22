@@ -1,0 +1,116 @@
+body {
+  padding-top: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: grey;
+  background-size:cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  left: -28px; 
+  padding: 0;
+  position: relative;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black ;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+li a:hover {
+  color: #e07a5f;
+}
+[class*="container"]{
+  padding: 0px;
+  border: 0;
+  text-align: left;
+  background-color: #f2eecb ;
+}
+
+[class*="col-xl"]{
+  padding: 1rem;
+  color: #F4F1DE;
+  text-align: left;
+  background-color: #E3886F;
+
+}
+
+[class*="col-lg"]{
+  padding: 1rem;
+  color: black;
+  text-align: left;
+  background-color: #F4F1DE;
+}
+
+.btn {
+  border: none;
+  background-color: #F4F1DE;
+  cursor: pointer;
+  display: inline-block;
+  text-align: left;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;  }
+
+#week1more {display:none; transition: 0.3s;}
+#week2more {display:none; transition: 0.3s;}
+#week3more {display:none; transition: 0.3s;}
+#week4more {display:none; transition: 0.3s;}
+#week5more {display:none; transition: 0.3s;}
+#week6more {display:none; transition: 0.3s;}
+#week7more {display:none; transition: 0.3s;}
+#week8more {display:none; transition: 0.3s;}
+#week9more {display:none; transition: 0.3s;}
+#week10more {display:none; transition: 0.3s;}
+#week11more {display:none; transition: 0.3s;}
+#week12more {display:none; transition: 0.3s;}
+#week13more {display:none; transition: 0.3s;}
+#week14more {display:none; transition: 0.3s;}
+#dots {display:inline;}
+
+p.whitebg{
+  background-color: #F4F1DE;
+  border-radius: 5px;
+  color:#3D405B;
+  padding: 5px;
+  font-size: 14px;
+  margin: 5px;  
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  border: 0px solid #3D405B;
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #3D405B;  
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #88ba1c;  
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .fullwidth {
+    background: #F4F1DE;
+  }
